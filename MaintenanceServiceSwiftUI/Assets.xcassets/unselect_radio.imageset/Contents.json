@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "unselect_radio.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "electric_plug.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
