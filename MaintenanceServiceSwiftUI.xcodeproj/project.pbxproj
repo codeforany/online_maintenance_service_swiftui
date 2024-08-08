@@ -8,24 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BAB122C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift */; };
-		CB3BAB152C6167900062BA9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BAB142C6167900062BA9E /* ContentView.swift */; };
 		CB3BAB172C6167920062BA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB162C6167920062BA9E /* Assets.xcassets */; };
 		CB3BAB1A2C6167920062BA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB192C6167920062BA9E /* Preview Assets.xcassets */; };
 		CB3BAB232C61680D0062BA9E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB212C61680D0062BA9E /* Roboto-Bold.ttf */; };
 		CB3BAB242C61680D0062BA9E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB222C61680D0062BA9E /* Roboto-Regular.ttf */; };
 		CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */; };
+		CB501F2E2C63C8820001AAF5 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = CB501F2D2C63C8820001AAF5 /* CountryPicker */; };
+		CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */; };
+		CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */; };
+		CB9671282C62932E0029BD81 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9671272C62932E0029BD81 /* Launch Screen.storyboard */; };
+		CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB3BAB0F2C6167900062BA9E /* MaintenanceServiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaintenanceServiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BAB122C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceServiceSwiftUIApp.swift; sourceTree = "<group>"; };
-		CB3BAB142C6167900062BA9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB3BAB162C6167920062BA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB3BAB192C6167920062BA9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB3BAB212C61680D0062BA9E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CB3BAB222C61680D0062BA9E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		CB3BAB252C61681E0062BA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithMobileScreen.swift; sourceTree = "<group>"; };
+		CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		CB9671272C62932E0029BD81 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB501F2E2C63C8820001AAF5 /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +74,9 @@
 				CB3BAB252C61681E0062BA9E /* Info.plist */,
 				CB3BAB202C6167F00062BA9E /* Fonts */,
 				CB3BAB122C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift */,
-				CB3BAB142C6167900062BA9E /* ContentView.swift */,
 				CB3BAB162C6167920062BA9E /* Assets.xcassets */,
 				CB3BAB182C6167920062BA9E /* Preview Content */,
+				CB9671272C62932E0029BD81 /* Launch Screen.storyboard */,
 			);
 			path = MaintenanceServiceSwiftUI;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 		CB3BAB272C6169590062BA9E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB9671292C62936F0029BD81 /* Login */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */,
+				CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -124,6 +134,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CB9671292C62936F0029BD81 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */,
+				CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,9 @@
 			dependencies = (
 			);
 			name = MaintenanceServiceSwiftUI;
+			packageProductDependencies = (
+				CB501F2D2C63C8820001AAF5 /* CountryPicker */,
+			);
 			productName = MaintenanceServiceSwiftUI;
 			productReference = CB3BAB0F2C6167900062BA9E /* MaintenanceServiceSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +192,9 @@
 				Base,
 			);
 			mainGroup = CB3BAB062C6167900062BA9E;
+			packageReferences = (
+				CB501F2C2C63C8810001AAF5 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = CB3BAB102C6167900062BA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,6 +212,7 @@
 				CB3BAB1A2C6167920062BA9E /* Preview Assets.xcassets in Resources */,
 				CB3BAB172C6167920062BA9E /* Assets.xcassets in Resources */,
 				CB3BAB242C61680D0062BA9E /* Roboto-Regular.ttf in Resources */,
+				CB9671282C62932E0029BD81 /* Launch Screen.storyboard in Resources */,
 				CB3BAB232C61680D0062BA9E /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3BAB152C6167900062BA9E /* ContentView.swift in Sources */,
 				CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */,
+				CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */,
+				CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */,
 				CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */,
+				CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +368,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,8 +399,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB501F2C2C63C8810001AAF5 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB501F2D2C63C8820001AAF5 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB501F2C2C63C8810001AAF5 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB3BAB072C6167900062BA9E /* Project object */;
 }

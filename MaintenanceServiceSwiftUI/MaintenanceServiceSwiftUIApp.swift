@@ -11,7 +11,11 @@ import SwiftUI
 struct MaintenanceServiceSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        
+            NavigationView(content: {
+                SignInWithEmailScreen()
+            })
+            .navigationViewStyle(.stack)
         }
     }
 }

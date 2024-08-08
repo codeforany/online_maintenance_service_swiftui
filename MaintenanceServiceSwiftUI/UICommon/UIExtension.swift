@@ -38,7 +38,7 @@ extension CGFloat {
     
     
     static var topInsets: Double {
-        if  let keyWindow = UIApplication.shared.keyWindow {
+        if  let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene )?.windows.first {
             return keyWindow.safeAreaInsets.top
         }
         return 0.0
@@ -46,21 +46,21 @@ extension CGFloat {
     
     
     static var bottomInsets: Double {
-        if  let keyWindow = UIApplication.shared.keyWindow {
+        if  let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene )?.windows.first {
             return keyWindow.safeAreaInsets.bottom
         }
         return 0.0
     }
     
     static var horizontalInsets: Double {
-        if  let keyWindow = UIApplication.shared.keyWindow {
+        if  let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene )?.windows.first {
             return keyWindow.safeAreaInsets.left + keyWindow.safeAreaInsets.right
         }
         return 0.0
     }
     
     static var verticalInsets: Double {
-        if  let keyWindow = UIApplication.shared.keyWindow {
+        if  let keyWindow = (UIApplication.shared.connectedScenes.first as? UIWindowScene )?.windows.first {
             return keyWindow.safeAreaInsets.top + keyWindow.safeAreaInsets.bottom
         }
         return 0.0
@@ -145,4 +145,84 @@ extension Color {
         )
     }
     
+}
+
+extension View {
+    
+    func bgNavLink(content: some View, isActive: Binding<Bool> ) -> some View {
+        return self.background( NavigationLink(destination: content, isActive: isActive, label: {
+            EmptyView()
+        }) )
+    }
+    
+    var navHide: some View {
+        return navigationTitle("")
+            .navigationBarBackButtonHidden()
+            .navigationBarHidden(true)
+            .ignoresSafeArea()
+    }
+    
+    var navHideWithoutIgnoresSafe: some View {
+        return navigationTitle("")
+            .navigationBarBackButtonHidden()
+            .navigationBarHidden(true)
+    }
+    
+    
+    var maxCenter: some View {
+        return frame(maxWidth: .infinity, alignment: .center)
+    }
+    
+    var maxLeft: some View {
+        return frame(maxWidth: .infinity, alignment: .leading)
+    }
+    
+    var maxRight: some View {
+        return frame(maxWidth: .infinity, alignment: .trailing)
+    }
+    
+    var top8: some View {
+        return padding(.top, 8)
+    }
+    
+    var top15: some View {
+        return padding(.top, 15)
+    }
+    
+    var bottom8: some View {
+        return padding(.bottom, 8)
+    }
+    
+    var bottom15: some View {
+        return padding(.bottom, 15)
+    }
+    
+    var horizontal8: some View {
+        return padding(.horizontal, 8)
+    }
+    
+    var horizontal15: some View {
+        return padding(.horizontal, 15)
+    }
+    
+    var vertical8: some View {
+        return padding(.vertical, 8)
+    }
+    
+    var vertical15: some View {
+        return padding(.vertical, 15)
+    }
+    
+    var all15: some View {
+        return padding( 15)
+    }
+    
+    var topWithSafe: some View {
+        return padding( .top, .topInsets + 2)
+    }
+    
+    var bottomWithSafe: some View {
+        return padding(.bottom, .bottomInsets + 8)
+    }
+
 }
