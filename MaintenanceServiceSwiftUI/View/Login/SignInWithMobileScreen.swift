@@ -19,6 +19,7 @@ struct SignInWithMobileScreen: View {
     
     @State private var countryObj: Country?
     @State private var showCountryPicker = false
+    @State private var showOTP = false
     
     var body: some View {
         ZStack(alignment: .center){
@@ -91,7 +92,7 @@ struct SignInWithMobileScreen: View {
                    
                     
                     Button(action: {
-                        
+                        showOTP = true
                     }, label: {
                         Text("NEXT")
                             .font(.customfont(.bold, fontSize: 17))
@@ -189,6 +190,11 @@ struct SignInWithMobileScreen: View {
         .onAppear() {
             self.countryObj = Country(phoneCode: "91", isoCode: "IN")
         }
+        .fullScreenCover(isPresented: $showOTP, content: {
+             LoginOTPScreen()
+                .background( BackgroundCleanerView() )
+                .ignoresSafeArea()
+        })
         .sheet(isPresented: $showCountryPicker, content: {
             CountryPickerUI(country: $countryObj)
         })
