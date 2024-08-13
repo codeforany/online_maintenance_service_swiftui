@@ -16,6 +16,8 @@
 		CB501F2E2C63C8820001AAF5 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = CB501F2D2C63C8820001AAF5 /* CountryPicker */; };
 		CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */; };
 		CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */; };
+		CB6A21612C6677BF009612CE /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A21602C6677BF009612CE /* SignUpScreen.swift */; };
+		CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A21622C667B20009612CE /* CellNumberVerifyScreen.swift */; };
 		CB9671282C62932E0029BD81 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9671272C62932E0029BD81 /* Launch Screen.storyboard */; };
 		CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */; };
 		CBA789642C6535B300FE72EC /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789632C6535B300FE72EC /* OTPTextField.swift */; };
@@ -34,6 +36,8 @@
 		CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithMobileScreen.swift; sourceTree = "<group>"; };
 		CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		CB6A21602C6677BF009612CE /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		CB6A21622C667B20009612CE /* CellNumberVerifyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNumberVerifyScreen.swift; sourceTree = "<group>"; };
 		CB9671272C62932E0029BD81 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailScreen.swift; sourceTree = "<group>"; };
 		CBA789632C6535B300FE72EC /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		CB3BAB272C6169590062BA9E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB9AC5642C6BBC4800F57C00 /* Home */,
 				CB9671292C62936F0029BD81 /* Login */,
 			);
 			path = View;
@@ -150,8 +155,17 @@
 				CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */,
 				CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */,
 				CBA789672C6537C900FE72EC /* LoginOTPScreen.swift */,
+				CB6A21602C6677BF009612CE /* SignUpScreen.swift */,
+				CB6A21622C667B20009612CE /* CellNumberVerifyScreen.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		CB9AC5642C6BBC4800F57C00 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +249,10 @@
 			files = (
 				CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */,
 				CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */,
+				CB6A21612C6677BF009612CE /* SignUpScreen.swift in Sources */,
 				CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */,
 				CBA789682C6537C900FE72EC /* LoginOTPScreen.swift in Sources */,
+				CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */,
 				CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */,
 				CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */,
 				CBA789662C65376300FE72EC /* BackgroundCleanerView.swift in Sources */,

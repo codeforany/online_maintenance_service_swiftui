@@ -10,6 +10,7 @@ import SwiftUI
 struct OTPTextField: View {
     @Binding var txtOTP: String
     @State var placeholder = "-"
+    @State var width: CGFloat = 50
     var body: some View {
         ZStack{
             
@@ -33,7 +34,7 @@ struct OTPTextField: View {
                     }
                     
                 }
-                .frame(width: 50, height: 50)
+                .frame(width: width, height: width)
                 .background( Color.white.cornerRadius(10).shadow(radius: 3) )
                 
                 Spacer()

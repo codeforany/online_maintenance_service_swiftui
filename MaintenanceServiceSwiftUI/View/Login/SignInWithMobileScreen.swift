@@ -16,7 +16,7 @@ struct SignInWithMobileScreen: View {
     
     @State var txtMobile = ""
     
-    
+    @State var showSignUp = false
     @State private var countryObj: Country?
     @State private var showCountryPicker = false
     @State private var showOTP = false
@@ -168,7 +168,7 @@ struct SignInWithMobileScreen: View {
                 
                 
                 Button(action: {
-                    
+                    showSignUp = true
                 }, label: {
                     Text("SIGNUP")
                         .font(.customfont(.regular, fontSize: 17))
@@ -198,6 +198,7 @@ struct SignInWithMobileScreen: View {
         .sheet(isPresented: $showCountryPicker, content: {
             CountryPickerUI(country: $countryObj)
         })
+        .bgNavLink(content: SignUpScreen(), isActive: $showSignUp)
         .navHide
     }
 }

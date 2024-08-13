@@ -10,6 +10,7 @@ import SwiftUI
 struct SignInWithEmailScreen: View {
     
     @State var showLoginWithMobile = false
+    @State var showSignUp = false
     @State var txtEmail = ""
     @State var txtPassword = ""
     @State var showPasssword = false
@@ -161,7 +162,7 @@ struct SignInWithEmailScreen: View {
                 
                 
                 Button(action: {
-                    
+                    showSignUp = true
                 }, label: {
                     Text("SIGNUP")
                         .font(.customfont(.regular, fontSize: 17))
@@ -181,6 +182,7 @@ struct SignInWithEmailScreen: View {
             }
         }
         .bgNavLink(content: SignInWithMobileScreen(), isActive: $showLoginWithMobile)
+        .bgNavLink(content: SignUpScreen(), isActive: $showSignUp)
         .navHide
     }
 }
