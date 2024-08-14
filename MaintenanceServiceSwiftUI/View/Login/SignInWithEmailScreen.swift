@@ -14,6 +14,7 @@ struct SignInWithEmailScreen: View {
     @State var txtEmail = ""
     @State var txtPassword = ""
     @State var showPasssword = false
+    @State var showHome = false
     
     var body: some View {
         ZStack(alignment: .center){
@@ -74,7 +75,7 @@ struct SignInWithEmailScreen: View {
                     }
                     
                     Button(action: {
-                        
+                        showHome = true
                     }, label: {
                         Text("SIGN IN")
                             .font(.customfont(.bold, fontSize: 17))
@@ -183,6 +184,7 @@ struct SignInWithEmailScreen: View {
         }
         .bgNavLink(content: SignInWithMobileScreen(), isActive: $showLoginWithMobile)
         .bgNavLink(content: SignUpScreen(), isActive: $showSignUp)
+        .bgNavLink(content: HomeScreen(), isActive: $showHome )
         .navHide
     }
 }
