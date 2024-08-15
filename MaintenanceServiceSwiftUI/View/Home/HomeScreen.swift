@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeScreen: View {
     
     @State private var txtSearch = ""
+    @State private var selectCat = 0
     
     var body: some View {
         ZStack{
@@ -155,9 +156,37 @@ struct HomeScreen: View {
                 .cornerRadius(50, corner: [.bottomLeft, .bottomRight])
                 
                 ScrollView{
-                    
+                    ScrollView(.horizontal, showsIndicators: false){
+                        LazyHStack(spacing: 15) {
+                            
+                            SelectButton(icon: "hygiene", title: "Hygiene", isSelect:  selectCat == 0 ) {
+                                selectCat = 0
+                            }
+                            
+                            SelectButton(icon: "electric_plug", title: "Electrical", isSelect:  selectCat == 1 ) {
+                                selectCat = 1
+                            }
+                            
+                            SelectButton(icon: "appllication", title: "Appliances", isSelect:  selectCat == 2 ) {
+                                selectCat = 2
+                            }
+                            
+                            SelectButton(icon: "plumbing", title: "Plumbing", isSelect:  selectCat == 3 ) {
+                                selectCat = 3
+                            }
+                            
+                            SelectButton(icon: "ac_repair", title: "AC Repair", isSelect:  selectCat == 4 ) {
+                                selectCat = 4
+                            }
+                            
+                        }
+                        .all15
+                    }
+                    .background( Color.white )
+                    .top15
                 }
             }
+            .background( Color(hex: "f1f1f1") )
             
         }
         .navHide

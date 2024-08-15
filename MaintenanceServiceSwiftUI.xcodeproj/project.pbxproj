@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB357A532C6D23480082EF35 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB357A522C6D23480082EF35 /* SelectButton.swift */; };
 		CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BAB122C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift */; };
 		CB3BAB172C6167920062BA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB162C6167920062BA9E /* Assets.xcassets */; };
 		CB3BAB1A2C6167920062BA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB192C6167920062BA9E /* Preview Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB357A522C6D23480082EF35 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
 		CB3BAB0F2C6167900062BA9E /* MaintenanceServiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaintenanceServiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BAB122C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceServiceSwiftUIApp.swift; sourceTree = "<group>"; };
 		CB3BAB162C6167920062BA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */,
 				CBA789632C6535B300FE72EC /* OTPTextField.swift */,
 				CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */,
+				CB357A522C6D23480082EF35 /* SelectButton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */,
 				CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */,
 				CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */,
+				CB357A532C6D23480082EF35 /* SelectButton.swift in Sources */,
 				CBA789662C65376300FE72EC /* BackgroundCleanerView.swift in Sources */,
 				CBA789642C6535B300FE72EC /* OTPTextField.swift in Sources */,
 			);
