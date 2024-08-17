@@ -11,6 +11,14 @@ struct HomeScreen: View {
     
     @State private var txtSearch = ""
     @State private var selectCat = 0
+    @State private var selectImage = 0
+    
+    @State var imageArr = [
+        "banner1",
+        "banner2",
+        "banner3",
+        "banner4"
+    ]
     
     var body: some View {
         ZStack{
@@ -184,6 +192,80 @@ struct HomeScreen: View {
                     }
                     .background( Color.white )
                     .top15
+                    
+                    TabView(selection: $selectImage) {
+                        
+                        ForEach(0..<imageArr.count, id:\.self) {
+                            index in
+                            Image(imageArr[index] ?? "" )
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: .screenWidth, height: .widthPer(per: 0.55))
+                                .tag(index)
+                        }
+                        
+                        
+                    }
+                    .tabViewStyle(.page)
+                    .frame(width: .screenWidth, height: .widthPer(per: 0.55))
+                    .vertical8
+                    
+                    
+                    VStack{
+                        
+                        Text("Best Offer")
+                            .font(.customfont(.bold, fontSize: 17))
+                            .foregroundColor(.primaryText)
+                            .maxLeft
+                            .horizontal15
+                        
+                        Text("Hygienic & single-use products | low-contact services")
+                            .font(.customfont(.regular, fontSize: 12))
+                            .foregroundColor(.placeholder)
+                            .maxLeft
+                            .horizontal15
+                            .bottom8
+                        
+                        
+                        ScrollView(.horizontal, showsIndicators: false){
+                            LazyHStack(spacing: 15) {
+                                
+                                
+                                ForEach(0..<3, id: \.self) {
+                                    index in
+                                    VStack{
+                                        
+                                        Image("best_1")
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: .widthPer(per: 0.7), height: .widthPer(per: 0.35))
+                                            .cornerRadius(10)
+                                            .bottom8
+                                        
+                                        Text("Bathroom Cleaning")
+                                            .font(.customfont(.bold, fontSize: 13))
+                                            .foregroundColor(.primaryText)
+                                            .maxCenter
+                                        
+                                        Text("Free Fan Cleaning & More")
+                                            .font(.customfont(.regular, fontSize: 12))
+                                            .foregroundColor(.placeholder)
+                                            .maxCenter
+                                        
+                                    }
+                                    
+                                }
+                                
+                            }
+                            .horizontal15
+                            .bottomWithSafe
+                        }
+                        
+                    }
+                    .vertical15
+                    .background( Color.white )
+                    
+                    
                 }
             }
             .background( Color(hex: "f1f1f1") )
