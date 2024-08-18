@@ -25,6 +25,8 @@
 		CBA789642C6535B300FE72EC /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789632C6535B300FE72EC /* OTPTextField.swift */; };
 		CBA789662C65376300FE72EC /* BackgroundCleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */; };
 		CBA789682C6537C900FE72EC /* LoginOTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789672C6537C900FE72EC /* LoginOTPScreen.swift */; };
+		CBE650192C71025300899115 /* ChooseYourServiceAreaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */; };
+		CBE6501B2C71047E00899115 /* SelectIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6501A2C71047E00899115 /* SelectIconButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		CBA789632C6535B300FE72EC /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCleanerView.swift; sourceTree = "<group>"; };
 		CBA789672C6537C900FE72EC /* LoginOTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOTPScreen.swift; sourceTree = "<group>"; };
+		CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourServiceAreaScreen.swift; sourceTree = "<group>"; };
+		CBE6501A2C71047E00899115 /* SelectIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				CBA789632C6535B300FE72EC /* OTPTextField.swift */,
 				CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */,
 				CB357A522C6D23480082EF35 /* SelectButton.swift */,
+				CBE6501A2C71047E00899115 /* SelectIconButton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				CB9AC5672C6BC0AC00F57C00 /* HomeScreen.swift */,
+				CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 			files = (
 				CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */,
 				CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */,
+				CBE6501B2C71047E00899115 /* SelectIconButton.swift in Sources */,
 				CB6A21612C6677BF009612CE /* SignUpScreen.swift in Sources */,
 				CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */,
+				CBE650192C71025300899115 /* ChooseYourServiceAreaScreen.swift in Sources */,
 				CB9AC5682C6BC0AC00F57C00 /* HomeScreen.swift in Sources */,
 				CBA789682C6537C900FE72EC /* LoginOTPScreen.swift in Sources */,
 				CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */,

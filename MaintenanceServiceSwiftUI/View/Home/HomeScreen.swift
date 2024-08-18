@@ -12,6 +12,7 @@ struct HomeScreen: View {
     @State private var txtSearch = ""
     @State private var selectCat = 0
     @State private var selectImage = 0
+    @State private var showChoose = false
     
     @State var imageArr = [
         "banner1",
@@ -169,22 +170,27 @@ struct HomeScreen: View {
                             
                             SelectButton(icon: "hygiene", title: "Hygiene", isSelect:  selectCat == 0 ) {
                                 selectCat = 0
+                                showChoose = true
                             }
                             
                             SelectButton(icon: "electric_plug", title: "Electrical", isSelect:  selectCat == 1 ) {
                                 selectCat = 1
+                                showChoose = true
                             }
                             
                             SelectButton(icon: "appllication", title: "Appliances", isSelect:  selectCat == 2 ) {
                                 selectCat = 2
+                                showChoose = true
                             }
                             
                             SelectButton(icon: "plumbing", title: "Plumbing", isSelect:  selectCat == 3 ) {
                                 selectCat = 3
+                                showChoose = true
                             }
                             
                             SelectButton(icon: "ac_repair", title: "AC Repair", isSelect:  selectCat == 4 ) {
                                 selectCat = 4
+                                showChoose = true
                             }
                             
                         }
@@ -271,6 +277,7 @@ struct HomeScreen: View {
             .background( Color(hex: "f1f1f1") )
             
         }
+        .bgNavLink(content: ChooseYourServiceAreaScreen() , isActive: $showChoose)
         .navHide
     }
 }
