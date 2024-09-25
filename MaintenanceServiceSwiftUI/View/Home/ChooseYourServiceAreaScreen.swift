@@ -11,6 +11,7 @@ struct ChooseYourServiceAreaScreen: View {
     
     @State private var txtSearch = ""
     @State var selectBusiness = true
+    @State var showBookService = false
     
     var body: some View {
         ZStack{
@@ -140,7 +141,7 @@ struct ChooseYourServiceAreaScreen: View {
                         }
                         
                         Button(action: {
-                            
+                            showBookService = true
                         }, label: {
                             Text("Search Now")
                                 .font(.customfont(.regular, fontSize: 17))
@@ -164,6 +165,7 @@ struct ChooseYourServiceAreaScreen: View {
                 
             }
         }
+        .bgNavLink(content: BookServiceScreen(), isActive: $showBookService)
         .navHide
         .background( Color.primaryApp )
     }

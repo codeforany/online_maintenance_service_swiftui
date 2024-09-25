@@ -1,5 +1,5 @@
 {
-  "originHash" : "980296c42f1ad539ebe5516f96c24798753843721df3b547edf89f976d4630b9",
+  "originHash" : "4d71e4d5dcaa0b0057b0f35d54f511d3daffd72ecdd86328c2092c1783e4ad3e",
   "pins" : [
     {
       "identity" : "countrypicker",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "6225c2933fea6abdb8171718b22bbe289706a7aa",
         "version" : "2.0.3"
+      }
+    },
+    {
+      "identity" : "shuffleit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dscyrescotti/ShuffleIt.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e0e70737c1f32f72aec305036484b737ef9d0467"
       }
     }
   ],

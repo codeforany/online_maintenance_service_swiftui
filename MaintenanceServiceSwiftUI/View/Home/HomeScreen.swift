@@ -13,6 +13,7 @@ struct HomeScreen: View {
     @State private var selectCat = 0
     @State private var selectImage = 0
     @State private var showChoose = false
+    @State private var showRateProfile = false
     
     @State var imageArr = [
         "banner1",
@@ -27,7 +28,9 @@ struct HomeScreen: View {
                 
                 VStack{
                     HStack{
-                        Button(action: {}, label: {
+                        Button(action: {
+                            showRateProfile = true
+                        }, label: {
                             Image("menu")
                                 .resizable()
                                 .scaledToFit()
@@ -277,6 +280,7 @@ struct HomeScreen: View {
             .background( Color(hex: "f1f1f1") )
             
         }
+        .bgNavLink(content: RateForServiceScreen(), isActive: $showRateProfile)
         .bgNavLink(content: ChooseYourServiceAreaScreen() , isActive: $showChoose)
         .navHide
     }

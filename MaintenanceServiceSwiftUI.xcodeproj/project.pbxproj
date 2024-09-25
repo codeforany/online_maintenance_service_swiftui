@@ -14,17 +14,33 @@
 		CB3BAB232C61680D0062BA9E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB212C61680D0062BA9E /* Roboto-Bold.ttf */; };
 		CB3BAB242C61680D0062BA9E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3BAB222C61680D0062BA9E /* Roboto-Regular.ttf */; };
 		CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */; };
+		CB3C7CB22C7462BF009AEA90 /* RateForServiceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C7CB12C7462BF009AEA90 /* RateForServiceScreen.swift */; };
+		CB4036DD2C7387BF00AD64EF /* JobDetailReceiptScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4036DC2C7387BF00AD64EF /* JobDetailReceiptScreen.swift */; };
 		CB501F2E2C63C8820001AAF5 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = CB501F2D2C63C8820001AAF5 /* CountryPicker */; };
 		CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */; };
 		CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */; };
+		CB52404F2C75AA5C00FA074B /* UserRateSubmitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52404E2C75AA5C00FA074B /* UserRateSubmitScreen.swift */; };
 		CB6A21612C6677BF009612CE /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A21602C6677BF009612CE /* SignUpScreen.swift */; };
 		CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A21622C667B20009612CE /* CellNumberVerifyScreen.swift */; };
 		CB9671282C62932E0029BD81 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9671272C62932E0029BD81 /* Launch Screen.storyboard */; };
 		CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */; };
 		CB9AC5682C6BC0AC00F57C00 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9AC5672C6BC0AC00F57C00 /* HomeScreen.swift */; };
+		CBA324322C71E455004C2A98 /* BookServiceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA324312C71E455004C2A98 /* BookServiceScreen.swift */; };
+		CBA324342C71EB50004C2A98 /* RequestAcceptingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA324332C71EB50004C2A98 /* RequestAcceptingScreen.swift */; };
+		CBA324362C71EE94004C2A98 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA324352C71EE94004C2A98 /* IconButton.swift */; };
+		CBA397052C784E370082CB21 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA397042C784E370082CB21 /* ImagePicker.swift */; };
 		CBA789642C6535B300FE72EC /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789632C6535B300FE72EC /* OTPTextField.swift */; };
 		CBA789662C65376300FE72EC /* BackgroundCleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */; };
 		CBA789682C6537C900FE72EC /* LoginOTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA789672C6537C900FE72EC /* LoginOTPScreen.swift */; };
+		CBAAA7FE2C7724B20099785E /* ChatMessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAAA7FD2C7724B20099785E /* ChatMessageScreen.swift */; };
+		CBE2238A2C7227D700AA9924 /* PaymentMethodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE223892C7227D700AA9924 /* PaymentMethodScreen.swift */; };
+		CBE2238C2C7229A300AA9924 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2238B2C7229A300AA9924 /* TabButton.swift */; };
+		CBE2238E2C7230AF00AA9924 /* CheckoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2238D2C7230AF00AA9924 /* CheckoutScreen.swift */; };
+		CBE479B22C725FC100F1E243 /* EditCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE479B12C725FC100F1E243 /* EditCardScreen.swift */; };
+		CBE479B52C7260D000F1E243 /* CarouselStack in Frameworks */ = {isa = PBXBuildFile; productRef = CBE479B42C7260D000F1E243 /* CarouselStack */; };
+		CBE479B72C7260D000F1E243 /* ShuffleDeck in Frameworks */ = {isa = PBXBuildFile; productRef = CBE479B62C7260D000F1E243 /* ShuffleDeck */; };
+		CBE479B92C7260D000F1E243 /* ShuffleIt in Frameworks */ = {isa = PBXBuildFile; productRef = CBE479B82C7260D000F1E243 /* ShuffleIt */; };
+		CBE479BB2C7260D000F1E243 /* ShuffleStack in Frameworks */ = {isa = PBXBuildFile; productRef = CBE479BA2C7260D000F1E243 /* ShuffleStack */; };
 		CBE650192C71025300899115 /* ChooseYourServiceAreaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */; };
 		CBE6501B2C71047E00899115 /* SelectIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6501A2C71047E00899115 /* SelectIconButton.swift */; };
 /* End PBXBuildFile section */
@@ -39,16 +55,28 @@
 		CB3BAB222C61680D0062BA9E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		CB3BAB252C61681E0062BA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CB3BAB2B2C61698E0062BA9E /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		CB3C7CB12C7462BF009AEA90 /* RateForServiceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateForServiceScreen.swift; sourceTree = "<group>"; };
+		CB4036DC2C7387BF00AD64EF /* JobDetailReceiptScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailReceiptScreen.swift; sourceTree = "<group>"; };
 		CB501F2F2C63C8980001AAF5 /* SignInWithMobileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithMobileScreen.swift; sourceTree = "<group>"; };
 		CB501F312C63CAF70001AAF5 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		CB52404E2C75AA5C00FA074B /* UserRateSubmitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRateSubmitScreen.swift; sourceTree = "<group>"; };
 		CB6A21602C6677BF009612CE /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		CB6A21622C667B20009612CE /* CellNumberVerifyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNumberVerifyScreen.swift; sourceTree = "<group>"; };
 		CB9671272C62932E0029BD81 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CB96712A2C6293830029BD81 /* SignInWithEmailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailScreen.swift; sourceTree = "<group>"; };
 		CB9AC5672C6BC0AC00F57C00 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CBA324312C71E455004C2A98 /* BookServiceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookServiceScreen.swift; sourceTree = "<group>"; };
+		CBA324332C71EB50004C2A98 /* RequestAcceptingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAcceptingScreen.swift; sourceTree = "<group>"; };
+		CBA324352C71EE94004C2A98 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		CBA397042C784E370082CB21 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		CBA789632C6535B300FE72EC /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCleanerView.swift; sourceTree = "<group>"; };
 		CBA789672C6537C900FE72EC /* LoginOTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOTPScreen.swift; sourceTree = "<group>"; };
+		CBAAA7FD2C7724B20099785E /* ChatMessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageScreen.swift; sourceTree = "<group>"; };
+		CBE223892C7227D700AA9924 /* PaymentMethodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodScreen.swift; sourceTree = "<group>"; };
+		CBE2238B2C7229A300AA9924 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		CBE2238D2C7230AF00AA9924 /* CheckoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutScreen.swift; sourceTree = "<group>"; };
+		CBE479B12C725FC100F1E243 /* EditCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardScreen.swift; sourceTree = "<group>"; };
 		CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourServiceAreaScreen.swift; sourceTree = "<group>"; };
 		CBE6501A2C71047E00899115 /* SelectIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +87,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB501F2E2C63C8820001AAF5 /* CountryPicker in Frameworks */,
+				CBE479B52C7260D000F1E243 /* CarouselStack in Frameworks */,
+				CBE479B72C7260D000F1E243 /* ShuffleDeck in Frameworks */,
+				CBE479BB2C7260D000F1E243 /* ShuffleStack in Frameworks */,
+				CBE479B92C7260D000F1E243 /* ShuffleIt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +180,9 @@
 				CBA789652C65376300FE72EC /* BackgroundCleanerView.swift */,
 				CB357A522C6D23480082EF35 /* SelectButton.swift */,
 				CBE6501A2C71047E00899115 /* SelectIconButton.swift */,
+				CBA324352C71EE94004C2A98 /* IconButton.swift */,
+				CBE2238B2C7229A300AA9924 /* TabButton.swift */,
+				CBA397042C784E370082CB21 /* ImagePicker.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -176,6 +211,15 @@
 			children = (
 				CB9AC5672C6BC0AC00F57C00 /* HomeScreen.swift */,
 				CBE650182C71025300899115 /* ChooseYourServiceAreaScreen.swift */,
+				CBA324312C71E455004C2A98 /* BookServiceScreen.swift */,
+				CBA324332C71EB50004C2A98 /* RequestAcceptingScreen.swift */,
+				CBE223892C7227D700AA9924 /* PaymentMethodScreen.swift */,
+				CBE2238D2C7230AF00AA9924 /* CheckoutScreen.swift */,
+				CBE479B12C725FC100F1E243 /* EditCardScreen.swift */,
+				CB4036DC2C7387BF00AD64EF /* JobDetailReceiptScreen.swift */,
+				CB3C7CB12C7462BF009AEA90 /* RateForServiceScreen.swift */,
+				CB52404E2C75AA5C00FA074B /* UserRateSubmitScreen.swift */,
+				CBAAA7FD2C7724B20099785E /* ChatMessageScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -198,6 +242,10 @@
 			name = MaintenanceServiceSwiftUI;
 			packageProductDependencies = (
 				CB501F2D2C63C8820001AAF5 /* CountryPicker */,
+				CBE479B42C7260D000F1E243 /* CarouselStack */,
+				CBE479B62C7260D000F1E243 /* ShuffleDeck */,
+				CBE479B82C7260D000F1E243 /* ShuffleIt */,
+				CBE479BA2C7260D000F1E243 /* ShuffleStack */,
 			);
 			productName = MaintenanceServiceSwiftUI;
 			productReference = CB3BAB0F2C6167900062BA9E /* MaintenanceServiceSwiftUI.app */;
@@ -229,6 +277,7 @@
 			mainGroup = CB3BAB062C6167900062BA9E;
 			packageReferences = (
 				CB501F2C2C63C8810001AAF5 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+				CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */,
 			);
 			productRefGroup = CB3BAB102C6167900062BA9E /* Products */;
 			projectDirPath = "";
@@ -262,17 +311,29 @@
 				CB3BAB2C2C61698E0062BA9E /* UIExtension.swift in Sources */,
 				CB96712B2C6293830029BD81 /* SignInWithEmailScreen.swift in Sources */,
 				CBE6501B2C71047E00899115 /* SelectIconButton.swift in Sources */,
+				CB4036DD2C7387BF00AD64EF /* JobDetailReceiptScreen.swift in Sources */,
 				CB6A21612C6677BF009612CE /* SignUpScreen.swift in Sources */,
 				CB501F322C63CAF70001AAF5 /* CountryPickerUI.swift in Sources */,
 				CBE650192C71025300899115 /* ChooseYourServiceAreaScreen.swift in Sources */,
 				CB9AC5682C6BC0AC00F57C00 /* HomeScreen.swift in Sources */,
 				CBA789682C6537C900FE72EC /* LoginOTPScreen.swift in Sources */,
 				CB6A21632C667B20009612CE /* CellNumberVerifyScreen.swift in Sources */,
+				CBE479B22C725FC100F1E243 /* EditCardScreen.swift in Sources */,
 				CB3BAB132C6167900062BA9E /* MaintenanceServiceSwiftUIApp.swift in Sources */,
+				CB52404F2C75AA5C00FA074B /* UserRateSubmitScreen.swift in Sources */,
+				CBA397052C784E370082CB21 /* ImagePicker.swift in Sources */,
 				CB501F302C63C8980001AAF5 /* SignInWithMobileScreen.swift in Sources */,
+				CBAAA7FE2C7724B20099785E /* ChatMessageScreen.swift in Sources */,
+				CBA324322C71E455004C2A98 /* BookServiceScreen.swift in Sources */,
+				CBE2238C2C7229A300AA9924 /* TabButton.swift in Sources */,
 				CB357A532C6D23480082EF35 /* SelectButton.swift in Sources */,
+				CB3C7CB22C7462BF009AEA90 /* RateForServiceScreen.swift in Sources */,
 				CBA789662C65376300FE72EC /* BackgroundCleanerView.swift in Sources */,
+				CBA324362C71EE94004C2A98 /* IconButton.swift in Sources */,
+				CBA324342C71EB50004C2A98 /* RequestAcceptingScreen.swift in Sources */,
+				CBE2238E2C7230AF00AA9924 /* CheckoutScreen.swift in Sources */,
 				CBA789642C6535B300FE72EC /* OTPTextField.swift in Sources */,
+				CBE2238A2C7227D700AA9924 /* PaymentMethodScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +470,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MaintenanceServiceSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow to send imag in support chat";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "allow to send imag in support chat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +503,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MaintenanceServiceSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow to send imag in support chat";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "allow to send imag in support chat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,6 +557,14 @@
 				minimumVersion = 2.0.3;
 			};
 		};
+		CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dscyrescotti/ShuffleIt.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -499,6 +572,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CB501F2C2C63C8810001AAF5 /* XCRemoteSwiftPackageReference "CountryPicker" */;
 			productName = CountryPicker;
+		};
+		CBE479B42C7260D000F1E243 /* CarouselStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */;
+			productName = CarouselStack;
+		};
+		CBE479B62C7260D000F1E243 /* ShuffleDeck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */;
+			productName = ShuffleDeck;
+		};
+		CBE479B82C7260D000F1E243 /* ShuffleIt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */;
+			productName = ShuffleIt;
+		};
+		CBE479BA2C7260D000F1E243 /* ShuffleStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE479B32C7260D000F1E243 /* XCRemoteSwiftPackageReference "ShuffleIt" */;
+			productName = ShuffleStack;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
